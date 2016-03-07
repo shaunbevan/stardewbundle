@@ -1,0 +1,16 @@
+{
+  "items": {
+    "1": {
+      "name": "Corn",
+      "bundle": "Summer"
+    },
+    "2": {
+      "name": "Cabbage",
+      "bundle": "Summer"
+    },
+    "3": {
+      "name": "Hot Pepper",
+      "bundle": "Fall"
+    }
+  }
+}
