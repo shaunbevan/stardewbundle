@@ -1,16 +1,949 @@
-{
-  "items": {
-    "1": {
-      "name": "Corn",
-      "bundle": "Summer"
-    },
-    "2": {
-      "name": "Cabbage",
-      "bundle": "Summer"
-    },
-    "3": {
-      "name": "Hot Pepper",
-      "bundle": "Fall"
-    }
+[
+  {
+    "bundle": "Spring Foraging Bundle",
+    "items": [
+      {
+        "name": "Wild Horseradish",
+        "description": "Forage during Spring",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Daffodil",
+        "description": "Forage during Spring. Purchasable from Pierre's Shop at the Flower Dance.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Leek",
+        "description": "Forage during Spring",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Dandelion",
+        "description": "Forage during Spring. Purchasable from Pierre's Shop at the Flower Dance.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Spring Seeds (30)",
+    "location": "Crafts Room"
+  },
+  {
+    "bundle": "Summer Foraging Bundle",
+    "items": [
+      {
+        "name": "Grape",
+        "description": "Forage during Summer",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Spice Berry",
+        "description": "Forage during Summer",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Sweet Pea",
+        "description": "Forage during Summer",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Summer Seeds (30)",
+    "location": "Crafts Room"
+  },
+  {
+    "bundle": "Fall Foraging Bundle",
+    "items": [
+      {
+        "name": "Common Mushroom",
+        "description": "Forage during Fall or find in Mushroom Cave",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Wild Plum",
+        "description": "Forage during Fall",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Hazelnut",
+        "description": "Forage during Fall",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Fall Seeds (30)",
+    "location": "Crafts Room"
+  },
+  {
+    "bundle": "Winter Foraging Bundle",
+    "items": [
+      {
+        "name": "Winter Root",
+        "description": "Forage during Winter or dropped by slimes in mines level 41-79",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Crystal Fruit",
+        "description": "Forage during Winter or dropped by coal sprites in mines level 41-79",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Snow Yam",
+        "description": "Forage during Winter",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Crocus",
+        "description": "Forage during Winter",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Winter Seeds (30)",
+    "location": "Crafts Room"
+  },
+  {
+    "bundle": "Construction Bundle",
+    "items": [
+      {
+        "name": "Wood",
+        "description": "Chopped from trees, logs and stumps.",
+        "quantity": 99,
+        "quality": "common"
+      },
+      {
+        "name": "Wood",
+        "description": "Chopped from trees, logs and stumps.",
+        "quantity": 99,
+        "quality": "common"
+      },
+      {
+        "name": "Stone",
+        "description": "Use pickaxe on stones.",
+        "quantity": 99,
+        "quality": "common"
+      },
+      {
+        "name": "Hardwood",
+        "description": "Chopped from large stumps with an upgraded axe. Also found in mines.",
+        "quantity": 10,
+        "quality": "common"
+      }
+    ],
+    "reward": "Charcoal Kiln",
+    "location": "Crafts Room"
+  },
+  {
+    "bundle": "Exotic Foraging Bundle",
+    "items": [
+      {
+        "name": "Coconut",
+        "description": "Found in the desert.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Cactus Fruit",
+        "description": "Found in the desert.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Cave Carrot",
+        "description": "Found inside boxes in the mines.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Red Mushroom",
+        "description": "Found in mines or Mushroom Cave.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Purple Mushroom",
+        "description": "Found in mines or Mushroom Cave.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Maple Syrup",
+        "description": "Harvested from maple trees using a tapper.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Oak Resin",
+        "description": "Harvested from oak trees using a tapper.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Pine Tar",
+        "description": "Harvested from pine trees using a tapper.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Morel",
+        "description": "Found in the Mushroom cave.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Autumn's Bounty (5)",
+    "location": "Crafts Room"
+  },
+  {
+    "bundle": "Spring Crops Bundle",
+    "items": [
+      {
+        "name": "Parsnip",
+        "description": "Farmed during Spring.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Green Bean",
+        "description": "Farmed during Spring.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Cauliflower",
+        "description": "Farmed during Spring.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Potato",
+        "description": "Farmed during Spring.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Speed-Gro (20)",
+    "location": "Pantry"
+  },
+  {
+    "bundle": "Summer Crops Bundle",
+    "items": [
+      {
+        "name": "Tomato",
+        "description": "Farmed during Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Hot Pepper",
+        "description": "Farmed during Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Blueberry",
+        "description": "Farmed during Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Melon",
+        "description": "Farmed during Summer.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Quality Sprinkler",
+    "location": "Pantry"
+  },
+  {
+    "bundle": "Fall Crops Bundle",
+    "items": [
+      {
+        "name": "Corn",
+        "description": "Farmed during Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Eggplant",
+        "description": "Farmed during Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Pumpkin",
+        "description": "Farmed during Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Yam",
+        "description": "Farmed during Fall.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Bee House",
+    "location": "Pantry"
+  },
+  {
+    "bundle": "Quality Crops Bundle",
+    "items": [
+      {
+        "name": "Parsnip",
+        "description": "Farmed during Spring.",
+        "quantity": 5,
+        "quality": "gold"
+      },
+      {
+        "name": "Melon",
+        "description": "Farmed during Summer.",
+        "quantity": 5,
+        "quality": "gold"
+      },
+      {
+        "name": "Pumpkin",
+        "description": "Farmed during Fall.",
+        "quantity": 5,
+        "quality": "gold"
+      },
+      {
+        "name": "Corn",
+        "description": "Farmed during Fall.",
+        "quantity": 5,
+        "quality": "gold"
+      }
+    ],
+    "reward": "Preserves Jar",
+    "location": "Pantry"
+  },
+  {
+    "bundle": "Animal Bundle",
+    "items": [
+      {
+        "name": "Milk",
+        "description": "From cows.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Egg - Brown",
+        "description": "From chickens.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Egg - White",
+        "description": "From chickens.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Goat Milk",
+        "description": "From Goats.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Wool",
+        "description": "From Sheep.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Duck Egg",
+        "description": "From Ducks.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Cheese Press",
+    "location": "Pantry"
+  },
+  {
+    "bundle": "Artisan Bundle",
+    "items": [
+      {
+        "name": "Truffle Oil",
+        "description": "Made from Truffles. Requires an Oil Maker.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Cloth",
+        "description": "Made from Wool. Requires a Loom.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Goat Cheese",
+        "description": "Made from Goat Milk. Requires a Cheese Press.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Cheese",
+        "description": "Made from Cow Milk. Requires a Cheese Press.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Honey",
+        "description": "Made from Bees. Requires a Beehive.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Jelly",
+        "description": "Made from any fruit. Requires a Preserves Jar.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Apple",
+        "description": "Gathered from Apple Trees during the Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Apricot",
+        "description": "Gathered from Apricot Trees during the Spring.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Orange",
+        "description": "Gathered from Orange Trees during the Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Peach",
+        "description": "Gathered from Peach Trees during the Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Pomegranate",
+        "description": "Gathered from Pomegranate Trees during the Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Cherry",
+        "description": "Gathered from Cherry Trees during the Spring.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Keg",
+    "location": "Pantry"
+  },
+  {
+    "bundle": "River Fish Bundle",
+    "items": [
+      {
+        "name": "Sunfish",
+        "description": "Found in rivers during the daytime in Spring and Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Catfish",
+        "description": "Found in rivers when raining any time during the Spring and Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Shad",
+        "description": "Found in rivers when raining any time during the Spring, Summer and Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Tiger Trout",
+        "description": "Found in rivers in the early afternoon during Fall and Winter.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Bait (30)",
+    "location": "Fish Tank"
+  },
+  {
+    "bundle": "Lake Fish Bundle",
+    "items": [
+      {
+        "name": "Largemouth Bass",
+        "description": "Found in lakes during the day in all seasons.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Carp",
+        "description": "Found in lakes any time during the Spring, Summer and Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Bullhead",
+        "description": "Found in lakes any time during the Spring, Summer and Winter.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Sturgeon",
+        "description": "Found in lakes during the day in the Summer and Winter.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Dressed Spinner",
+    "location": "Fish Tank"
+  },
+  {
+    "bundle": "Ocean Fish Bundle",
+    "items": [
+      {
+        "name": "Sardine",
+        "description": "Found in the ocean during the day all season long.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Tuna",
+        "description": "Found in the ocean during the day in the Summer and Winter.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Red Snapper",
+        "description": "Found in the ocean during day when it rains in the Summer and Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Tilapia",
+        "description": "Found int he ocean during the day in the Summer and Fall.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Warp Totem Beach (5)",
+    "location": "Fish Tank"
+  },
+  {
+    "bundle": "Night Fishing Bundle",
+    "items": [
+      {
+        "name": "Walleye",
+        "description": "Found in rivers at night when raining/snowing during the Fall and Winter",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Bream",
+        "description": "Found in rivers at night during all seasons.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Eel",
+        "description": "Found in the ocean at night when raining during the Spring and Fall.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Small Glow Ring",
+    "location": "Fish Tank"
+  },
+  {
+    "bundle": "Crab Pot Bundle",
+    "items": [
+      {
+        "name": "Lobster",
+        "description": "Gathered from Crab Pots.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Crayfish",
+        "description": "Gathered from Crab Pots in rivers during the Spring.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Crab",
+        "description": "Gathered from Crab Pots. Also found off hermit crabs in the mines.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Cockle",
+        "description": "Gathered from Crab Pots. Also found on the beach.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Mussel",
+        "description": "Gathered from Crab Pots. Also found on the beach.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Shrimp",
+        "description": "Gathered from Crab Pots.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Snail",
+        "description": "Gathered from Crab Pots.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Periwinkle",
+        "description": "Gathered from Crab Pots.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Oyster",
+        "description": "Gathered from Crab Pots. Also found on the beach.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Clam",
+        "description": "Gathered from Crab Pots. Also found on the beach.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Crab Pot (3)",
+    "location": "Fish Tank"
+  },
+  {
+    "bundle": "Specialty Fish bundle",
+    "items": [
+      {
+        "name": "Pufferfish",
+        "description": "Found in the ocean in the early afternoon during Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Ghostfish",
+        "description": "Found in ponds in the mines.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Sandfish",
+        "description": "Found in the pond at Calico Desert.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Woodskip",
+        "description": "Found in the Secret Woods.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Dish O' The Sea (5)",
+    "location": "Fish Tank"
+  },
+  {
+    "bundle": "Blacksmith's Bundle",
+    "items": [
+      {
+        "name": "Copper Bar",
+        "description": "Created by smelting copper ore in the furnance.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Iron Bar",
+        "description": "Created by smelting iron ore in the furnance.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Gold Bar",
+        "description": "Created by smelting gold ore in the furnance.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Furnance",
+    "location": "Boiler Room"
+  },
+  {
+    "bundle": "Geologists's Bundle",
+    "items": [
+      {
+        "name": "Quartz",
+        "description": "Found on levels 1-39 in the mines and in geodes.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Earth Crystal",
+        "description": "Found on levels 1-39 in the mines and in geodes.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Frozen Tear",
+        "description": "Found on levels 40-79 in the mines and in geodes.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Fire Quartz",
+        "description": "Found on levels 80-120 in the mines and in geodes.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Omni Geode (5)",
+    "location": "Boiler Room"
+  },
+  {
+    "bundle": "Chef's Bundle",
+    "items": [
+      {
+        "name": "Maple Syrup",
+        "description": "Harvested from Maple Trees using a tapper.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Fiddlehead Fern",
+        "description": "Found in the forest to the west of the Wizard's Tower in the Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Truffle",
+        "description": "Found by pigs while grazing outdoors.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Poppy",
+        "description": "Farmed during the Summer.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Maki Roll",
+        "description": "Acquired by cooking.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Fried Egg",
+        "description": "Acquired by cooking.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Pink Cake (3)",
+    "location": "Bulletin Board"
+  },
+  {
+    "bundle": "Dye Bundle",
+    "items": [
+      {
+        "name": "Red Mushroom",
+        "description": "Found in mines or the Mushroom Cave.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Sea Urchin",
+        "description": "Foraged on the beach.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Sunflower",
+        "description": "Farmed during the Fall.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Duck Feather",
+        "description": "Found off ducks in the coop.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Aquamarine",
+        "description": "Found in stones and boxes in the mines.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Red Cabbage",
+        "description": "Farmed during the Summer.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Seed Maker",
+    "location": "Bulletin Board"
+  },
+  {
+    "bundle": "Field Research Bundle",
+    "items": [
+      {
+        "name": "Purple Mushroom",
+        "description": "Found deep in the mines or the Mushroom Cave.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Nautilus Shell",
+        "description": "Found on the beach during the Winter.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Chub",
+        "description": "Fished from the river.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Frozen Geode",
+        "description": "Found on levels 40-79 of the mines.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Recycling Machine",
+    "location": "Bulletin Board"
+  },
+  {
+    "bundle": "Fodder Bundle",
+    "items": [
+      {
+        "name": "Wheat",
+        "description": "Farmed during the Summer.",
+        "quantity": 10,
+        "quality": "common"
+      },
+      {
+        "name": "Hay",
+        "description": "Created by using the sickle on grass once you have a Silo.",
+        "quantity": 10,
+        "quality": "common"
+      },
+      {
+        "name": "Apple",
+        "description": "Gathered from an Apple Tree during the Fall.",
+        "quantity": 3,
+        "quality": "common"
+      }
+    ],
+    "reward": "Heater",
+    "location": "Bulletin Board"
+  },
+  {
+    "bundle": "Enchanter's Bundle",
+    "items": [
+      {
+        "name": "Oak Resin",
+        "description": "Harvested from Oak Trees while using a tapper.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Wine",
+        "description": "Produced by putting most fruits into a keg.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Rabbits Foot",
+        "description": "Dropped by Rabbits in the Coop.",
+        "quantity": 1,
+        "quality": "common"
+      },
+      {
+        "name": "Pomegranate",
+        "description": "Harvested from Pomegranate Trees during the Fall.",
+        "quantity": 1,
+        "quality": "common"
+      }
+    ],
+    "reward": "Gold Bar (5)",
+    "location": "Bulletin Board"
+  },
+  {
+    "bundle": "2,500 Bundle",
+    "items": [
+      {
+        "name": "Gold",
+        "description": "Collect 2,500 gold and purchase bundle.",
+        "quantity": 2500,
+        "quality": "common"
+      }
+    ],
+    "reward": "Chocolate Cake (3)",
+    "location": "Vault"
+  },
+  {
+    "bundle": "5,000 Bundle",
+    "items": [
+      {
+        "name": "Gold",
+        "description": "Collect 5,000 gold and purchase bundle.",
+        "quantity": 5000,
+        "quality": "common"
+      }
+    ],
+    "reward": "Quality Fertilizer (30)",
+    "location": "Vault"
+  },
+  {
+    "bundle": "10,000 Bundle",
+    "items": [
+      {
+        "name": "Gold",
+        "description": "Collect 10,000 gold and purchase bundle.",
+        "quantity": 10000,
+        "quality": "common"
+      }
+    ],
+    "reward": "Lightning Rod",
+    "location": "Vault"
+  },
+  {
+    "bundle": "25,000 Bundle",
+    "items": [
+      {
+        "name": "Gold",
+        "description": "Collect 25,000 gold and purchase bundle.",
+        "quantity": 25000,
+        "quality": "common"
+      }
+    ],
+    "reward": "Crystalarium",
+    "location": "Vault"
   }
-}
+]
