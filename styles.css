@@ -35,6 +35,40 @@ main input {
     text-align: center;
 }
 
+table {
+	width: 100%;
+	margin: 1em auto;
+	padding: .75em 0;
+	align-self: center;
+	text-align: center;
+}
+
+thead {
+	width: 100%;
+	margin: inherit;
+	font-size: 32px;
+	font-weight:bold;
+	align-self: center;
+}
+
+tr {
+	width: 100%;
+	margin:inherit;
+	font-size: 28px;
+	font-weight: normal;;
+	text-overflow: ellipsis;
+	align-self: center;
+
+}
+
+#results{
+	width: 100%;
+	font-size: 48px;
+	font-weight: normal;
+	text-align: center;
+;
+}
+
 #search {
 	background-color: #4CAF50; /* Green */
 	border: none;
@@ -46,7 +80,7 @@ main input {
 }
 
 #items {
-    list-style: none;
+    list-style:none;
     margin: 0;
     padding: 0;
 }
